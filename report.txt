@@ -1,0 +1,97 @@
+Municipio: Fasnia
+Nombre en Catastro: FASNIA
+Código: 38012
+Fecha: 01/05/22
+Opciones: 38012
+Superficie: 45,6 km²
+Población: 2777 hab. (2009)
+Wikipedia: https://www.wikipedia.org/wiki/es:Fasnia
+Wikidata: https://www.wikidata.org/wiki/Q524431
+
+=Información del sistema=
+Versión de la aplicación: CatAtom2Osm 1.8.6
+Plataforma: Linux 5.11.0-43-generic #47~20.04.2-Ubuntu SMP Mon Dec 13 11:06:56 UTC 2021 x86_64 x86_64
+Idioma: es_ES
+Versión de QGIS: 2.18.17
+Versión de GDAL: 2.2.3
+Número de CPUs: 2
+Frecuencia de CPU: 3.100,0 Mhz
+Tiempo de ejecución: 111,3 segundos
+Memoria total: 7.833,97 MB
+Memoria física usada: 380,76 MB
+Memoria virtual usada: 1.200,80 MB
+
+=Direcciones=
+
+==Datos de entrada==
+Fecha de origen: 2021-09-10
+Número de características: 2.288
+  Tipo entrada: 1.507
+  Tipo parcela: 781
+Códigos postales: 3
+Nombres de viales: 108
+
+==Procesado==
+Direcciones eliminadas por nombre de vía: 351
+Direcciones sin número de portal eliminadas: 205
+Direcciones sin edificio asociado eliminadas: 404
+Direcciones correspondientes a edificios múltiples eliminadas: 179
+Direcciones tipo parcela no únicas para su edificio eliminadas: 10
+
+==Combinación==
+Direcciones OSM: 456
+Direcciones rechazadas por existir en OSM: 243
+
+==Datos de salida==
+Direcciones: 896
+  En nodos de entrada: 480
+  En edificios: 416
+  Tipo addr:street: 889
+  Tipo addr:place: 7
+
+=Edificios=
+
+==Datos de entrada==
+Fecha de origen: 2021-09-11
+Número de características: 6.380
+  Edificios: 2.026
+  Partes de edificios: 4.328
+  Piscinas: 26
+
+==Procesado==
+Partes fuera de contorno eliminadas: 5
+Partes bajo rasante eliminadas: 126
+Edificios con geometrías multiparte: 360
+Edificios resultantes de dividir multipartes: 879
+Partes fusionadas al contorno: 2.016
+Partes adyacentes fusionadas: 252
+Geometrías no válidas eliminadas: 4
+Vértices próximos fusionados: 758
+Puntos topológicos creados: 1.490
+Vértices simplificados: 5.779
+
+==Combinación==
+Edificios/piscinas en OSM: 2.392
+  Con conflicto: 2.392
+
+==Datos de salida==
+Nodos: 19.607
+Vías: 4.516
+Relaciones: 53
+Número de características: 4.496
+  Edificios: 2.544
+  Partes de edificios: 1.926
+  Piscinas: 26
+Recuento de tipos de edificios: industrial: 160, office: 9, residential: 1510, yes: 236, retail: 17, ruins: 31, public: 33, barn: 548
+Plantas sobre rasante (nivel: nº de edificios): 1: 1281, 2: 478, 3: 196, 4: 42, 5: 8, 6: 1
+Plantas bajo rasante (nivel: nº de edificios): 1: 275, 2: 6
+Archivos de tareas de rústica: 20
+Archivos de tareas de urbana: 179
+Edificios sin zona: 0
+
+=Problemas=
+Correcciones (fixmes): 19
+  Las partes de edificio no cubren todo el contorno: 16
+  Falta el contorno del edificio para esta parte: 3
+
+https://wiki.openstreetmap.org/wiki/ES:Catastro_espa%C3%B1ol/Importaci%C3%B3n_de_edificios/Gesti%C3%B3n_de_proyectos#Generar_y_corregir_los_archivos_a_importar
